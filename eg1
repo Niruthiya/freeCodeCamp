@@ -1,0 +1,17 @@
+a = list(input())
+esum =0
+osum =0
+diff=0
+for index,i in enumerate(a):
+    if((index%2)==0):
+        esum = esum+int(i)
+    else:
+        osum = osum+int(i) 
+print(esum,osum)
+if(osum>esum):
+    diff = osum - esum
+else:
+    diff = esum - osum
+print(diff)
+        
+
